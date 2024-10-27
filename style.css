@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color: rgba(184, 206, 232, 0.88);
+    /* background-color: papayawhip; */
+    
+
+}
+
+
+.barimg{
+    background-image: url('./images/image-qr-code.png');
+    height: 240px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.barCodeContainer{
+    height: 420px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.barCodeContent {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+
+    /* align-items: center; */
+/* justify-content: center; */
+}
+
+.content{
+    padding: 15px;
+}
+.content-paragraph{
+    color: rgba(83, 80, 82, 0.88);
+    font-family: "Inter", serif;
+}
